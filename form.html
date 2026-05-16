@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <fieldset style="width: 40%; margin: auto;">
+        <legend align="center"><b><h3>Personal Information</h3></b></legend>
+        <form action="/submit" method="post" align="center" style="background-color: #f2f2f2; padding: 20px;" accept-charset="UTF-8"   enctype="application/x-www-form-urlencoded" name="personalInfo" target="_blank" autocomplete="on" novalidate>
+        <table align="center" cellspacing="10">
+            <tr>
+                <td><label for="name">Name:</label></td>
+                <td><input type="text" id="name" name="name" placeholder="Enter your name"></td>
+            </tr>
+            <tr>
+                <td><label for="age">Age:</label></td>
+                <td><input type="number" id="age" name="age" placeholder="Enter your age"></td>
+            </tr>
+            <tr>
+                <td><label for="language">Programming Language:</label></td>
+                <td>
+                    <select id="language" name="language">
+                        <option value="python">Python</option>
+                        <option value="javascript">JavaScript</option>
+                        <option value="java">Java</option>
+                    </select>
+                </td>
+            </tr>
+            <tr>
+                <td><label for="checkbox">Foods:</label></td>
+                <td>
+                    <input type="checkbox" id="checkbox" name="foods" value="pizza">
+                    <label for="checkbox">Pizza</label><br>
+                    <input type="checkbox" id="checkbox2" name="foods" value="burger">
+                    <label for="checkbox2">Burger</label><br>
+                    <input type="checkbox" id="checkbox3" name="foods" value="pasta">
+                    <label for="checkbox3">Pasta</label><br>
+                </td>
+            </tr>
+            <tr>
+                <td><label for="radio">Gender:</label></td>
+                <td>
+                    <input type="radio" id="radio1" name="gender" value="male">     
+                    <label for="radio1">Male</label><br>
+                    <input type="radio" id="radio2" name="gender" value="female">
+                    <label for="radio2">    Female</label><br>
+                    <input type="radio" id="radio   3" name="gender" value="other">
+                    <label for="radio3">Other</label><br>                                       
+                </td>
+            </tr>   
+            <tr>
+                <td><label for="email">Email:</label></td>
+                <td><input type="email" id="email" name="email" placeholder="Enter your email"></td>        
+            </tr>
+            <tr>
+                <td><label for="password">Password:</label></td>
+                <td><input type="password" id="password" name="password" placeholder="Enter your password"></td>    
+            </tr>
+            <tr>
+                <td colspan="2" align="center"><input type="submit" value="Submit"></td>        
+            </tr>
+    </table>
+    </form>
+</fieldse>
+</body>
+</html>
