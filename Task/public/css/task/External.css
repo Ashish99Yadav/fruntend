@@ -1,0 +1,12 @@
+P{
+    color: #c60c0c;
+}
+h1.note {
+    font-size: 20px;
+}
+p#note {
+    font-size: 20px;
+}
+p[attribute="true"] {
+    color: hsl(235, 93%, 55%);
+}

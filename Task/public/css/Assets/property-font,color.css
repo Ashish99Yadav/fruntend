@@ -1,0 +1,70 @@
+html {
+    font-size: 20px;
+}
+.serif {
+    font-family: serif;
+    font-size: 2.2rem;
+}
+.sans-serif {
+    font-family: sans-serif;
+}
+.monospace {
+    font-family: monospace;
+}
+.px {
+    font-size: 16px;
+}
+.em {
+    font-size: 1.5em;
+}
+.rem {
+    font-size: 1.5rem;
+}   
+.normal {
+    font-weight: normal;
+}
+.bold {
+    font-weight: bold;
+}
+.light {
+    font-weight: 300;
+}
+.medium {
+    font-weight: 500;
+}
+.rgb {
+    color: rgb(255, 0, 0);
+}
+.rgba {
+    color: rgba(255, 0, 0, 0.5);
+}
+.hsl {
+    color: hsl(0, 100%, 50%);
+}
+.hsla {
+    color: hsla(0, 100%, 50%, 0.5);
+}
+.currentColor {
+    color: currentColor;
+}
+.inherit {
+    color: inherit;
+}
+.initial {
+    color: initial;
+}
+.unset {
+    color: unset;
+}
+.transparent {
+    color: transparent;
+}
+.revert {
+    color: revert;
+}
+h1[attribute="green"] {
+    background-color: rgb(141, 223, 118);
+}
+h1[attribute="lightgreen"] {
+    background-color: rgb(144, 238, 144);
+}
