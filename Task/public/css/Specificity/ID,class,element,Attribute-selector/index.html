@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <header>
+        <h1>Specificity</h1>
+    </header>
+    <nav>
+        <ul>
+            <li><a href="#">Inline styles</a></li>
+            <li><a href="#">ID selectors</a></li>
+            <li><a href="#">Class selectors</a></li>
+            <li><a href="#">Element selectors</a></li>
+        </ul>
+    </nav>
+    <main>
+        <p>Specificity is a fundamental concept in CSS that determines which styles are applied to an element when there are conflicting rules. It is calculated based on the types of selectors used in the CSS rules. The more specific a selector is, the higher its specificity value, and it will take precedence over less specific selectors.</p>
+        <p>Specificity is calculated using a point system:</p>
+        <ul>
+            <li>Inline styles (e.g., style="color: red;") have the highest specificity (1000 points).</li>
+            <li>ID selectors (e.g., #header) have a specificity of 100 points.</li>
+            <li>Class selectors (e.g., .container), attribute selectors (e.g., [type="text"]), and pseudo-classes (e.g., :hover) have a specificity of 10 points.</li>
+            <li>Element selectors (e.g., div, p) and pseudo-elements (e.g., ::before) have a specificity of 1 point.</li>
+        </ul>
+        <p>When multiple CSS rules apply to the same element, the rule with the highest specificity will be applied. If two rules have the same specificity, the one that appears last in the CSS will take precedence.</p> 
+        <p>Understanding specificity is crucial for writing effective CSS and ensuring that your styles are applied as intended. It helps you avoid unexpected results and allows you to manage the styling of your web pages more efficiently.</p>
+    </main>
