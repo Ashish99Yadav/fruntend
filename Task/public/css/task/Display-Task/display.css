@@ -1,0 +1,27 @@
+.red{
+    height: 100px;
+    width: 100px;
+    font-size: 20px;
+    font-weight: 500;
+    display: inline-block;
+    background-color:red;
+    padding: 10px;
+}
+.blue{
+    height: 100px;
+    width: 100px;
+    font-size: 20px;
+    font-weight: 500;
+    display: inline-block;
+    background-color:blue;
+    padding: 10px;
+}
+.green{
+    height: 100px;
+    width: 100px;
+    font-size: 20px;
+    font-weight: 500;
+    display: inline-block;
+    background-color:green;
+    padding: 10px;
+}
